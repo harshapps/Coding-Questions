@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){	
 	int array[4][4] = {{1, 1, 1, 1}, {1, 1, 1, 1}, {1, 0, 1, 1}, {1, 1, 1, 1}}, i, j;		
-	int rowLength = sizeof(array)/sizeof(array[0]), columnLength = sizeof(array[0])/sizeof(array[0][0]);			
+	int rowLength = sizeof(array)/sizeof(array[0]), columnLength = sizeof(array[0])/sizeof(int);
 	int row[rowLength], column[columnLength];	
 	
 	cout<<"Before: "<<endl;
